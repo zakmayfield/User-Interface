@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5 {
 
 .header{
 	background: rgb(218, 218, 218);
+	
 
 	position: fixed;
 	left: 0;
@@ -100,8 +101,9 @@ h1, h2, h3, h4, h5 {
 	margin: 0 2%;
 
 	text-decoration: none;
-	font-size: 1.2rem;
-	font-weight: 600;
+	font-size: 1.8rem;
+	font-weight: 800;
+	font-family: 'Amatic SC', cursive;
 	color: rgb(0, 73, 73);
 
 	border: 1px solid rgba(156, 156, 156, 0.897);
@@ -157,7 +159,8 @@ h1, h2, h3, h4, h5 {
 
 .btn:hover{
 	background: lightcyan;
-	font-weight: 700;
+	transform: scale(1.2);
+	transition: 1s;
 }
 
 .header-img{
