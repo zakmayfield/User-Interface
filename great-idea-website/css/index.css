@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,3 +66,87 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+/*main and body*/
+
+body{
+	width: 80%;
+	height: auto;
+	display: block;
+	border: 1px solid grey;
+	margin: 0 auto;
+}
+
+p{
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+section{
+	display: inline-block;
+	margin: 0% 5%;
+}
+
+hr{
+	margin: 5% 5%;
+	background: black;
+	border: 0.5px solid black;
+}
+
+.main-features{
+	display: inline-block;
+	width: 48%;
+	margin-right: 3.5%;
+}
+
+.main-about{
+	display: inline-block;
+	width: 48%;
+	margin: 0;
+}
+
+.middle-img{
+	width: 100%;
+	margin: 5% 0;
+}
+
+.main-services{
+	display: inline-block;
+	width: 28%;
+	margin-right: 7.5%;
+}
+
+.main-product{
+	display: inline-block;
+	width: 28%;
+	margin-right: 7.5%;
+}
+
+.main-vision{
+	display: inline-block;
+	width: 28%;
+}
+
+.main-sub-one{
+	width: 100%;
+}
+
+
+/*footer*/
+
+footer > p{
+	text-align: center;
+	padding: 10%;
+}
+
+address{
+	display: inline-block;
+	margin: 1% 5%;
+}
+
