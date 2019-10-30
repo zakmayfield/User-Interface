@@ -72,6 +72,101 @@ h1, h2, h3, h4, h5 {
 }
 
 
+/*Header and Nav*/
+
+.header{
+	background: rgb(218, 218, 218);
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	
+	z-index: 2;
+
+	width: 100%;
+	height: 100px;
+}
+
+.nav{
+	display: inline-block;
+	position: relative;
+	width: 75%;
+	top: 35%;
+	left: 9%;
+}
+
+.nav a{
+	margin: 0 2%;
+
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: rgb(0, 73, 73);
+
+	border: 1px solid rgba(156, 156, 156, 0.897);
+	border-radius: 5px;
+
+	padding: 5px 10px;
+}
+
+.nav a:hover{
+	color: black;
+}
+
+.logo{
+	position: absolute;
+	width: 15%;
+	right: 5%;
+	top: 17%;
+}
+
+
+
+/*first section with img*/
+
+
+.first-section{
+	margin-top: 125px;
+	text-align: center;
+}
+
+.header-h1{
+	display: inline-block;
+	position: relative;
+	left: -10%;
+	top: -70px;
+	font-size: 5rem;
+}
+
+.btn{
+	display: inline-block;
+	position: relative;
+	left: -27%;
+	top: 0%;
+
+	text-decoration: none;
+
+	color: black;
+
+	border: 1px solid lightgray;
+	border-radius: 10px;
+
+	padding: 10px 50px;
+}
+
+.btn:hover{
+	background: lightcyan;
+	font-weight: 700;
+}
+
+.header-img{
+	display: inline-block;
+	position: relative;
+	left: 10%;
+}
+
+
 
 /*main and body*/
 
@@ -88,7 +183,7 @@ p{
 	font-size: 0.9rem;
 }
 
-section{
+.main-section{
 	display: inline-block;
 	margin: 0% 5%;
 }
