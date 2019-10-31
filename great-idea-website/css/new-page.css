@@ -142,7 +142,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn{
-	display: inline-block;
+  display: inline-block;
+  visibility: hidden;
 	position: relative;
 	left: -27%;
 	top: 0%;
@@ -154,7 +155,7 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid lightgray;
 	border-radius: 10px;
 
-	padding: 10px 50px;
+  padding: 10px 50px;
 }
 
 .btn:hover{
@@ -169,10 +170,6 @@ h1, h2, h3, h4, h5 {
 	left: 10%;
 }
 
-
-
-/*main and body*/
-
 body{
 	width: 80%;
 	height: auto;
@@ -181,59 +178,46 @@ body{
 	margin: 0 auto;
 }
 
-p{
-	font-weight: 600;
-	font-size: 0.9rem;
-}
-
-.main-section{
-	display: inline-block;
-	margin: 0% 5%;
-}
-
 hr{
 	margin: 5% 5%;
 	background: black;
 	border: 0.5px solid black;
 }
 
-.main-features{
-	display: inline-block;
-	width: 48%;
-	margin-right: 3.5%;
+
+/*main section*/
+
+.about-section{
+  display: inline-block;
+  width: 75%;
+  margin: 0 12%;
 }
 
-.main-about{
-	display: inline-block;
-	width: 48%;
-	margin: 0;
+.about-section > h2{
+  text-align: center;
+  font-size: 2rem;
 }
 
-.middle-img{
-	width: 100%;
-	margin: 5% 0;
+p{
+	font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-top: 5%;
 }
 
-.main-services{
-	display: inline-block;
-	width: 28%;
-	margin-right: 7.5%;
+.img-container{
+  margin-top: 5%;
 }
 
-.main-product{
-	display: inline-block;
-	width: 28%;
-	margin-right: 7.5%;
+.about-img{
+  height: 345px;
 }
 
-.main-vision{
-	display: inline-block;
-	width: 28%;
+.img3{
+  width: 100%;
 }
 
-.main-sub-one{
-	width: 100%;
-}
+
 
 
 /*footer*/
@@ -247,4 +231,3 @@ address{
 	display: inline-block;
 	margin: 1% 5%;
 }
-
